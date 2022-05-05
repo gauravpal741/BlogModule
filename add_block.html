@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #C3DFD8;
+        }
+        label{
+            display: block;
+        }
+        button{
+            display: block;
+            margin: 10px auto;
+            padding: 5px 25px;
+            border:  2px solid brown;
+            border-radius: 7px;
+        }
+        button:hover{
+            background-color: #C3DFD8;
+        }
+        .container{
+            width: 500px;
+            height: auto;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: 70px auto;
+            text-align: center;
+            box-shadow: 5px  5px  13px  5px gray;
+            padding: 30px;
+        }
+        h1{
+            text-decoration: 3px underline;
+        }
+        #demo,#demo1{
+            width: 300px;
+            padding-left: 5px;
+            border-radius: 7px;
+        }
+        input{
+            /* padding: 15px auto; */
+            height: 25px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Add Blog</h1>
+        <form action="" method="post" onsubmit="formsubmit(event)">
+        <h2>Blog Title</h2>
+        <input type="text" id="demo">
+        <h2>Description</h2>
+        <textarea name="TXTDescription" id="demo1" cols="21" rows="10"></textarea>
+        <button id="btn" type="submit">ADD</button>
+        </form>
+    </div>
+
+
+    
+<script src="blog_modulenew.js"></script>
+
+</body>
+</html>

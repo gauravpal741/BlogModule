@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #C3DFD8;
+        }
+
+        .container {
+            background-color: #EEDBA9;
+            width: 400px;
+            height: 200px;
+            border: 1px solid black;
+            margin: 50px auto;
+            text-align: center;
+            box-shadow: 5px 5px 13px 5px gray;
+        }
+
+        .main {
+            margin: 30px 0;
+
+        }
+
+        button {
+            display: flex;
+            margin: 10px auto;
+            background-color: #79A1B0;
+        }
+
+        button:hover {
+            box-shadow: 2px 2px 0px 0px #79A1B0;
+            background-color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        button:hover a {
+            color: #79A1B0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h1> -:Blog Module:-</h1>
+            <button><a href="">Home</a></button>
+            <button><a href="add_block.html">Add Blog</a></button>
+            <button onclick="myfun()"><a href="manage_block.html">Manage Blog</a></button>
+        </div>
+    </div>
+    <script src="blog_modulenew.js"></script>
+</body>
+
+</html>
